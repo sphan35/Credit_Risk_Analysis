@@ -7,30 +7,30 @@
 # Results
 
 **Naive Random Oversamping Results**
-![](images/naive_random_oversampling.png)
+![](images/new_oversampling.png)
 
 - Using the Naive Random Oversampling algorithm, the image above shows this algorithm producing an accuracy score of about 64%.
 - The metrics of high risk precision was extremely low at .01 and the recall at a low .66. Low Risk precision was a perfect 1.0, but the recall was at a low .61.
 
 **Synthetic Minority Oversampling Technique (SMOTE) Results**
-![](images/smote_ovesampling.png)
+![](images/new_smote.png)
 
 - Using the SMOTE algorithm, the image above shows a slightly better accuracy score of about 66% using this algorithm.
 - The metrics of high risk precision remained the same at .01 but the recall decreased to .62. Likewise, the low risk precision remained the same at 1.0 but the recall slightly improved to .69.
 
 **Cluster Centroid Undersampling**
-![](images/undersampling.png)
+![](images/new_undersampling.png)
 
 - Using the cluster centroid undersampling algorithm, the image above shows that the accuracy score using this algorithm was at about 66%.
 - The metrics of high risk precision continued its .01 result, but the recall saw a result of .67. Meanwhile, the low risk precision was its continued 1.0, but the recall was at an abysmal .42.
 
 **Combination Sampling**
-![](images/combo_sampling_smooteenn.png)
+![](images/new_combo.png)
 - Using the SMOTEENN algorithm for combination sampling, the image above shows that the accuracy score using this algorithm was at about 67%.
 - The metrics of high risk precision didn't change as it remained at .01, but the recall dropped further down to .79. As with the metric for low risk, precision remained the same at 1.0, but recall dropped greatly down to .54.
 
 **Balanced Forest Random Classifier**
-![](images/Balanced_Forest_classifier.png)
+![](images/new_forest.png)
 
 - Using the ensemble algorithm, Balanced Forest Random Classifier, the image above show that this algorithm produced an accuracy score of about 79%/
 - The metrics of high risk for precision was at .03 and the recall was at .70. Metrics for low risk precision was at 1.0 and recall was at .87.
