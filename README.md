@@ -25,8 +25,6 @@
 - The metrics of high risk precision continued its .01 result, but the recall saw a result of .67. Meanwhile, the low risk precision was its continued 1.0, but the recall was at an abysmal .42.
 
 **Combination Sampling with SMOTEENN**
-![](images/ combo_sampling_smooteenn.png)
-
 -Using the SMOTEENN algorithm for combination sampling, the image above shows that the accuracy score was at about 67%.
 - The metrics of high risk precision didn't change as it remained at .01, but the recall dropped further down to .79. As with the metric for low risk, precision remained the same at 1.0, but recall dropped greatly down to .54.
 
