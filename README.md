@@ -6,5 +6,9 @@
 
 # Results
 
-- **Naive Random Oversamping**
+**Naive Random Oversamping**
 ![](images/naive_random_oversampling.png)
+
+- Using the Naive Random Oversampling algorithm, the image above shows this algorithm producing an accuracy score of about 64%.
+- The metrics of high risk precision was extremely low at .01 and the recall at a low .66. Low Risk precision was a perfect 1.0, but the recall was at a low .61.
+
