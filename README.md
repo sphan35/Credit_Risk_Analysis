@@ -27,7 +27,6 @@
 **Combination Sampling**
 
 ![](images/combo_sampling_smooteenn.png)
-
 - Using the SMOTEENN algorithm for combination sampling, the image above shows that the accuracy score was at about 67%.
 - The metrics of high risk precision didn't change as it remained at .01, but the recall dropped further down to .79. As with the metric for low risk, precision remained the same at 1.0, but recall dropped greatly down to .54.
 
